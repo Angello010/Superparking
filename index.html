@@ -1,0 +1,88 @@
+<html>
+  <head>
+     <link href="css/bootstrap.min.css" rel="stylesheet"  >
+      <script src="js/bootstrap.bundle.js"></script>
+      <script src="js/jquery.js"></script>
+      <meta charset="utf-8">
+
+  </head>
+    <font size="11"> <i><h4></h4> <title>Registrate</title> </h4> </i> </font> 
+    <style>
+        body {
+          height: 100vh; /* 100% de la altura de la ventana */
+          margin: 0;
+          background: linear-gradient(to right, #9dc8eb, #ffffff); /* Degradado de azul claro a azul oscuro */
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: white;
+          font-family: Arial, sans-serif;
+        }
+      </style>
+    <body>
+        <center>   
+          <br><br><br><br><br><br><br> <br><br><br><br><br><br><br>
+           
+            <br><br><br>
+            <i><b><font size="12" ><tittle>REGISTRATE</tittle> </font></B></i>     
+         <font size="11"> <i><h4> ¡Bienvenido a tu pagina web de parking favorita! </h4> </i> </font> 
+         <br>
+           <i><b><font size="6" ><tittle>ingresa tu Nombre</tittle> </font></B></i>
+            <br><br>
+            <label><input type="text" id="Nombre" class="form-control" placeholder="Ingresa Tu Nombre"/></label>
+            <br><br><br>
+          <i><b><font size="6" ><tittle>ingresa tu Apellido</tittle> </font></B></i>
+          <br><br> 
+          <label><input type="text" id="Apellido" class="form-control" placeholder="Ingresa Tu Apellido"/></label>     
+            <br><br><br>
+            <i><b><font size="6" ><tittle>ingresa tu correo electronico</tittle> </font></B></i>
+            <br><br>
+            <label><input type="email" id="email" class="form-control" placeholder="Ingresa Tu Correo"/></label>
+            <br><br>
+            <i><b><font size="6" >
+              <tittle>crea tu contraseña</tittle> </font></B></i>
+            <br><br>
+            <label><input type="password" id="password" class="form-control" placeholder="Ingresa Tu Contraseña"/></label>
+            <br><br><br><br>
+            <button type="button" id="ingresar" class="btn btn-primary btn-lg">Registrate</button>
+            <br><br><br><br>
+
+            <div id="resultado">
+
+
+            </div>
+            <i><b><font size="6" ><tittle>O utiliza tus redes externas</tittle> </font></B></i>
+            <br><br><br><br>
+
+         <button type="button" class="btn btn-primary">
+  <i class="bi bi-plus"></i> Añadir
+</button>
+             <button type="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ifkv=ASKV5MhiXX2EHmElmYbck_3rN4_UMaU2fFlJ8J5kRMWbZF3xDIY1rvhBywQ8Cj9EQTV90FqAEc8d&rip=1&sacu=1&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S1177921859%3A1746738714001318">google</button><a href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ifkv=ASKV5MhiXX2EHmElmYbck_3rN4_UMaU2fFlJ8J5kRMWbZF3xDIY1rvhBywQ8Cj9EQTV90FqAEc8d&rip=1&sacu=1&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S1177921859%3A1746738714001318">google</a>
+             <a href="https://web.facebook.com/?locale=es_LA&_rdc=1&_rdr#"> facebook</a>
+
+
+          
+        </center>
+    </body>
+</html>
+<script>
+   $(document).ready(function(){
+
+      $("#ingresar").click(function(){
+        email = $("#email").val();
+        password = $("#password").val();
+        text = $("#nombre").val();
+        text = $("#apellido").val();
+        
+        if(email=="angelloasprilla1@gmail.com" && password == 1234){
+          parent.location='file:///C:/Users/Usuario/Desktop/superparking.front/index3.html?#';
+        }else{
+          alert("email y contraseña es invalido")
+          
+        }
+      })
+    
+    })
+  
+
+</script>
