@@ -37,6 +37,19 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    'apps.horadeparqueo',
+    'apps.medios_de_pago',
+    'apps.permisos',
+    'apps.tiempo',
+    'apps.tiempodeparqueo',
+    'apps.tipo_de_factura',
+    'apps.usuarios',
+    'apps.vehiculo',
+    'apps.rol'
+
+
+
 ]
 
 MIDDLEWARE = [
