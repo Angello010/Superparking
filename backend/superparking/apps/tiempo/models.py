@@ -1,12 +1,10 @@
 from django.db import models
 
 class Tiempo (models.Model):
-    hora_entrada= models.IntegerField("hora de entrada")
-    hora_tarifa= models.IntegerField("tarifa de timepo")
-    tarifa_id= models.IntegerField("tarifa")
+    horas= models.IntegerField("horas", blank=True, null=True)
+    minutos= models.IntegerField("minutos", blank=True, null=True)
+    contador= models.IntegerField("contador", blank=True, null=True)
 
     def __str__(self):
-        return f'{self.hora_entrada}'
+        return f'{self.horas}'
     
-    def __str__(self):
-        return f'{self.hora_tarifa}'
